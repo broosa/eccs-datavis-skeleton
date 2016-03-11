@@ -1,0 +1,5 @@
+*.*~
+server.conf
+server.json
+__pycache__
+app.pyc datavis.pyc

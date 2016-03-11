@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+	overflow: hidden;
+}
+
+body {
+    position: relative;
+    font-family: "Open Sans";
+    background: #E0E0E0;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.content-wrapper {
+    background-color: #FFFFFF;
+}
+
+.chosen-container-single .chosen-single {
+    background: none;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    background: none;
+}
+
+.chosen-container .chosen-drop {
+    box-shadow: none;
+}
+
+.with-shadow {
+	box-shadow: 1px 3px 5px rgba(0, 0, 0, .3);
+}
+
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 4;
+}
+
+.loading-screen-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    background-color: inherit;
+}
+
+.loading-screen-splash {
+    display: inline-block;
+    position: relative;
+
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.error-container {
+    color: #ff0000;
+}
+
+.map-container {
+	/*width: 800px;*/
+    position: absolute;
+    width: 100%;
+	height: 100%;
+}
